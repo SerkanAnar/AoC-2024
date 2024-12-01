@@ -1,4 +1,3 @@
-
 l1 = []
 l2 = []
 with open('input.txt', 'r') as f:
