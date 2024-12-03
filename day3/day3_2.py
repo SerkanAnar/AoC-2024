@@ -14,7 +14,6 @@ for line in lines:
         elif action.startswith('do()'):
             do = True
         elif do and action.startswith('mul'):
-            parts = action.split(',')
             num1, num2 = map(int, re.findall(r'\d+', action))
             total_sum += num1 * num2
 
